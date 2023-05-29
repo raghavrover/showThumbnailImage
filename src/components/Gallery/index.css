@@ -1,0 +1,49 @@
+.gallery-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.gallery-card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-image {
+  width: 100%;
+  max-width: 800px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #1e2b3b;
+  margin-bottom: 10px;
+}
+
+.photography-by {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #64748b;
+  margin-bottom: 0px;
+}
+
+.photographer-name {
+  font-family: 'Caveat';
+  font-weight: 600;
+  font-size: 14px;
+  color: #1ea7f6;
+}
+
+.thumbnails-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}

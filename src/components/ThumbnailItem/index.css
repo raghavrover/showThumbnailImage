@@ -1,0 +1,26 @@
+.thumbnail-list-item {
+  list-style-type: none;
+  margin-right: 14px;
+  margin-bottom: 14px;
+  cursor: progress;
+}
+
+.thumbnail-btn {
+  border: 0 solid;
+  height: 45px;
+  width: 45px;
+  padding: 0;
+  background-color: transparent;
+}
+
+.selected-thumbnail-opacity {
+  opacity: 1;
+}
+
+.unselected-thumbnail-opacity {
+  opacity: 0.5;
+}
+
+.thumbnail-img {
+  width: 100%;
+}
