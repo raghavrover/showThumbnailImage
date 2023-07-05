@@ -96,7 +96,7 @@ class Gallery extends Component {
           <h1 className="title">Nature Photography</h1>
           <p className="photography-by">
             Nature Photography by
-            <span className="photographer-name">Rahul</span>
+            <span className="photographer-name">Raghav</span>
           </p>
           <ul className="thumbnails-list">
             {imagesList.map(imageDetails => (

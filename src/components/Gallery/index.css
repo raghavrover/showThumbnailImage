@@ -1,5 +1,5 @@
 .gallery-container {
-  background-color: #ffffff;
+  background-image: radial-gradient(#51e2d6, rgb(52, 211, 222));
   min-height: 100vh;
   display: flex;
   justify-content: center;
