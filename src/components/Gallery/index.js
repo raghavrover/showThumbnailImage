@@ -94,10 +94,7 @@ class Gallery extends Component {
         <div className="gallery-card">
           <img src={imageUrl} className="card-image" alt={altText} />
           <h1 className="title">Nature Photography</h1>
-          <p className="photography-by">
-            Nature Photography by
-            <span className="photographer-name">Raghav</span>
-          </p>
+
           <ul className="thumbnails-list">
             {imagesList.map(imageDetails => (
               <ThumbnailItem
@@ -108,6 +105,10 @@ class Gallery extends Component {
               />
             ))}
           </ul>
+          <div className="photographer-container">
+            <p className="photography-by">Nature Photography by</p>
+            <p className="photographer-name">Raghav</p>
+          </div>
         </div>
       </div>
     )

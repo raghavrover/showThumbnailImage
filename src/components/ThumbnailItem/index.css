@@ -2,11 +2,11 @@
   list-style-type: none;
   margin-right: 14px;
   margin-bottom: 14px;
-  cursor: progress;
 }
 
 .thumbnail-btn {
   border: 0 solid;
+  cursor: pointer;
   height: 45px;
   width: 45px;
   padding: 0;
